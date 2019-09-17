@@ -25,4 +25,4 @@ push-release:
         tag: $WERCKER_GIT_BRANCH-$WERCKER_GIT_COMMIT
         working-dir: /pipeline/source
         ports: 80
-cmd: npm star
+cmd: npm start
