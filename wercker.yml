@@ -31,7 +31,6 @@ cmd: node index.js
 deploy-to-cluster:
   box:
       id: node:latest
-      cmd: /bin/sh
 
   steps:
 
